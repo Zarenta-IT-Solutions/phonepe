@@ -90,7 +90,7 @@ class PhonePeGateway
             $responseData = json_decode($response->getBody()->getContents(), true);
 
             if ($responseData['success']) {
-                return redirect($responseData['data']['instrumentResponse']['redirectInfo']['url']);
+                return $responseData['data']['instrumentResponse']['redirectInfo']['url'];
             } else {
                 throw new PhonePeException($responseData['message']);
             }

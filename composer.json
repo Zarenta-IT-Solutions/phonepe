@@ -1,0 +1,17 @@
+{
+    "name": "zarenta/phonepe",
+    "description": "Laravel PhonePe Package",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "Phonepe\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zarenta IT Solutions"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

@@ -12,6 +12,7 @@
             "name": "Zarenta IT Solutions"
         }
     ],
+    "license": "MIT",  // Add this line
     "minimum-stability": "stable",
     "require": {}
 }
